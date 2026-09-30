@@ -1,8 +1,8 @@
 # Elastic Bloc Storage
 
-![alt text](image.png)
+![alt text](images/image.png)
 
-![alt text](image-1.png)
+![alt text](images/image-1.png)
 
 ## Launch an EC2 instance (CentOSS)
 
@@ -48,23 +48,23 @@ cp -r 2119_gymso_fitness/* /var/www/html/
 systemctl restart httpd
 ```
 
-![alt text](image-2.png)
+![alt text](images/image-2.png)
 
-![alt text](image-3.png)
+![alt text](images/image-3.png)
 
-![alt text](image-4.png)
+![alt text](images/image-4.png)
 
-![alt text](image-5.png)
+![alt text](images/image-5.png)
 
 ## To list all the available and connected hard disc
 
-![alt text](image-6.png)
+![alt text](images/image-6.png)
 
-![alt text](image-7.png)
+![alt text](images/image-7.png)
 
 ## Adding extras volume to store webserver data
 
-![alt text](image-8.png)
+![alt text](images/image-8.png)
 
 ```sh
 Go to Volumes and click on `Create volume`
@@ -82,7 +82,7 @@ Go to Volumes and click on `Create volume`
     └── Create volume
 ```
 
-![alt text](image-9.png)
+![alt text](images/image-9.png)
 
 ## Attached vole to an EC2
 
@@ -95,65 +95,53 @@ Go to Volumes and click on `Action` > `Attached volume`
     └── Attached volume
 ```
 
-![alt text](image-10.png)
+![alt text](images/image-10.png)
 
 ## Creating a partition from the new /dev/xvdf
 
-![alt text](image-12.png)
+![alt text](images/image-12.png)
 
-![alt text](image-11.png)
+![alt text](images/image-11.png)
 
-![alt text](image-13.png)
+![alt text](images/image-13.png)
 
-![alt text](image-14.png)
+![alt text](images/image-14.png)
 
-![alt text](image-15.png)
+![alt text](images/image-15.png)
 
 - Hit enter to use the entire disk partition
-![alt text](image-16.png)
+![alt text](images/image-16.png)
 
 - Hit p to print
-![alt text](image-17.png)
+![alt text](images/image-17.png)
 
-![alt text](image-18.png)
+![alt text](images/image-18.png)
 
 ## Formatting the created partition
 
-![alt text](image-19.png)
+![alt text](images/image-19.png)
 
 - Backup files in another directory first
-![alt text](image-20.png)
+![alt text](images/image-20.png)
 
-![alt text](image-21.png)
+![alt text](images/image-21.png)
 
-![alt text](image-22.png)
+![alt text](images/image-22.png)
 
-![alt text](image-23.png)
+![alt text](images/image-23.png)
 
-![alt text](image-24.png)
+![alt text](images/image-24.png)
 
-![alt text](image-25.png)
+![alt text](images/image-25.png)
 
 ## To unmount the partition
 
-![alt text](image-26.png)
+![alt text](images/image-26.png)
 
 ## The permanent mount
 
-![alt text](image-27.png)
+![alt text](images/image-27.png)
 
-![alt text](image-28.png)
+![alt text](images/image-28.png)
 
-![alt text](image-29.png)
-
-
-
-
-
-
-
-
-
-
-
-
+![alt text](images/image-29.png)
